@@ -19,7 +19,8 @@ react + react-router + redux + immutable + less + ES6/7 + webpack + fetch + ant 
 
 
 ### 截了几个效果图
-![](https://demo.png)
+![Image text](https://github.com/yllg/React-Mall/blob/master/readMeImg/%E6%95%88%E6%9E%9C%E5%9B%BE1.gif)
+![Image text](https://github.com/yllg/React-Mall/blob/master/readMeImg/%E6%95%88%E6%9E%9C%E5%9B%BE2.gif)
 
 
 
