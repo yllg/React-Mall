@@ -1,0 +1,137 @@
+.index_module {
+  background: url("../images/1.首页背景图.jpg") no-repeat fixed center 50px;
+  height: 705px;
+
+  .index_logo1 {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(100%, -650%);
+    width: 267px;
+    height: 32px;
+    background: url("../images/index-en.png") no-repeat;
+  }
+  .index_logo2 {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(115%, -920%);
+    width: 230px;
+    height: 18px;
+    background: url("../images/index-cn.png") no-repeat;
+  }
+  .index_logo3 {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(190%, -285%);
+    width: 125px;
+    height: 45px;
+    background: url("../images/index-our.png") no-repeat;
+  }
+
+  .index_left_menu {
+    .left_menu_wrap {
+      width: 200px;
+      transform: translateX(-250%);
+
+      .blog,
+      .wx,
+      p {
+        display: none;
+      }
+
+      .order_li:after {
+        display: inline-block;
+        float: right;
+        content: ">>";
+        font-size: 8px;
+      }
+
+      .left_menu_list {
+        padding: 0px;
+        background-color: transparent;
+        margin-bottom: 40px;
+
+        .order_li {
+          border-radius: 0px;
+          background-color: #d24797;
+        }
+      }
+    }
+  }
+
+  #boxWrap {
+    width: 160px;
+    height: 160px;
+    margin: 110px auto 0 auto;
+    transform: translateX(-50%);
+
+    #box {
+      -webkit-animation-name: indexAnimation;
+      -webkit-animation-timing-function: ease-in-out;
+      -webkit-animation-iteration-count: infinite;
+      -webkit-animation-duration: 20s;
+      margin: 80;
+      -webkit-transform-style: preserve-3d;
+      -webkit-transform-origin: 150px 150px 0;
+
+      div {
+        position: absolute;
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        font-size: 130px;
+      }
+
+      .one {
+        -webkit-transform: translateZ(150px);
+        background: url("../images/box.png") no-repeat;
+      }
+      .two {
+        -webkit-transform: rotateX(-90deg) translateZ(150px);
+        background: url("../images/box.png") no-repeat;
+      }
+      .three {
+        -webkit-transform: rotateY(90deg) rotateX(90deg) translateZ(150px);
+        background: url("../images/box.png") no-repeat;
+      }
+      .four {
+        -webkit-transform: rotateY(180deg) rotateZ(90deg) translateZ(150px);
+        background: url("../images/box.png") no-repeat;
+      }
+      .five {
+        -webkit-transform: rotateY(-90deg) rotateZ(90deg) translateZ(150px);
+        background: url("../images/box.png") no-repeat;
+      }
+      .six {
+        -webkit-transform: rotateY(90deg) translateZ(150px);
+        background: url("../images/box.png") no-repeat;
+      }
+    }
+
+    @-webkit-keyframes indexAnimation {
+      from,
+      to {
+      }
+      16% {
+        -webkit-transform: rotateY(-90deg);
+      }
+      33% {
+        -webkit-transform: rotateY(-90deg) rotateZ(135deg);
+      }
+      50% {
+        -webkit-transform: rotateY(225deg) rotateZ(135deg);
+      }
+      66% {
+        -webkit-transform: rotateY(135deg) rotateX(135deg);
+      }
+      83% {
+        -webkit-transform: rotateX(135deg);
+      }
+    }
+  }
+}

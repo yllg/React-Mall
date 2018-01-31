@@ -1,0 +1,117 @@
+.News_module{
+    background: url("../images/3.背景图讲台.jpg") no-repeat fixed center 0;
+
+    h1{
+        width: 160px;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        top: 165px;
+        transform: translateX(-265%);
+    }
+
+    .content_title{
+        width: 488px;
+        height: 26px;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        top: 240px;
+        padding: 4px 0 0 30px;
+        font-size: 14px;
+        transform: translateX(-50%);
+        background: url("../images/about_02.jpg") no-repeat ;
+    }
+
+    .contentWrap{
+        width: 500px;
+        height: 300px;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        top: 266px;
+        padding: 0;
+        font-size: 16px;
+        transform: translateX(-50%);
+        padding: 10px;
+        background-color: #600042;
+
+        .Carousel.focus{
+            position: relative;
+        }
+        .Carousel.focus1{
+            width: 486px;
+            height: 250px;
+            background: url("../images/focus1.jpg") no-repeat ;
+        }
+        
+        .Carousel.focus2{
+            width: 486px;
+            height: 250px;
+            background: url("../images/focus2.jpg") no-repeat ;
+        }
+        
+        .Carousel.focus3{
+            width: 486px;
+            height: 250px;
+            background: url("../images/focus3.jpg") no-repeat ;
+        }
+
+        .Carousel.focus4{
+            width: 486px;
+            height: 250px;
+            background: url("../images/focus4.jpg") no-repeat ;
+        }
+
+        .ant-carousel{
+            width: 486px !important;
+
+            .slick-slide{
+                height: 285px !important;
+                background-color: #600042;
+
+                h3{
+                    display: inline-block !important;
+                    position: absolute !important;
+                    bottom: -100px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+            }
+            .slick-dots{
+                bottom: -15px !important;
+            }
+        }
+        
+        .prev{
+            position: absolute;
+            padding: 10px;
+            left: 5px;
+            bottom: 0;
+            font-size: 30px;
+            cursor: pointer;
+        }
+
+        .next{
+            position: absolute;
+            padding: 10px;
+            right: 5px;
+            bottom: 0;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    }
+
+    .ant-carousel .slick-slide {
+        text-align: center;
+        height: 160px;
+        line-height: 160px;
+        background: #364d79;
+        overflow: hidden;
+    }
+      
+    .ant-carousel .slick-slide h3 {
+        color: #fff;
+    }
+
+}

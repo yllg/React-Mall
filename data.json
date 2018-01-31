@@ -1,0 +1,268 @@
+ {
+     "indexData": {
+         "msg": "获取首页数据成功",
+         "menuData": [{
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代商城（本店）"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代商城鼎城店 "
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代网上商城"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代微博"
+             }]
+         }],
+         "contentData": "首页的主体内容哦"
+     },
+     "AboutData": {
+         "msg": "获取关于页数据成功",
+         "menuData": [{
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代理念"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "/About",
+                 "menu_name": "文化理念"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "社会责任"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代期刊"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "/Employment",
+                 "menu_name": "人才招聘"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "联系我们"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代城歌"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代博客"
+             }]
+         }],
+         "contentData": "当代商城核心理念</br>企业愿景：建设成为国际化程度较高的零售企业集团</br>企业核心价值观：诚信敬业 务实高效 求知创新 永争一流</br>企业使命：让消费体验美好生活，让合作传递诚信是金，让员工激发无限潜能，让资产创造最大财富，让承担社会责任永远同发展相伴而行</br>企业发展方略：以科学发展观作指导，牢固树立“以人为本”的三大顾客观（消费者、供应商、员工），全面推进以经济效益为中心的经营管理和企业文化，运行机制和思想道德建设，统筹商品、服务、环境、便捷、安全五大商业元素的协调改进，坚持企业品牌战略、人才战略、质量战略的一体化可持续发展战略，在实践中更新发展观念，创新发展思路，在董事会正确领导下，永葆企业的发展后劲和竞争活力</br>企业目标定位：有特色的高档精品零售企业</br>企业目标顾客：追求高品质生活的成功知性人士</br>服务理念：一切为了创造顾客价值</br>营销理念：以顾客为中心，把顾客资源视为企业最宝贵的资源，把满足顾客需求视为企业的生存命脉，关注顾客体验，提供超值服务，提高顾客忠诚度，培养顾客生命价值，持续保持和扩大市场占有率</br>"
+     },
+     "EmploymentData": {
+         "msg": "获取招聘页 数据成功",
+         "menuData": [{
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代理念"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "/About",
+                 "menu_name": "文化理念"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "社会责任"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代期刊"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "/Employment",
+                 "menu_name": "人才招聘"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "联系我们"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代城歌"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代博客"
+             }]
+         }],
+         "contentData": {
+             "EmploymentContentdata":[{
+                "Employment_name": "文案策划专员",
+                "Employment_depart": "商品运营部"
+             },{
+                "Employment_name": "电工",
+                "Employment_depart": "物业部"
+             },{
+                "Employment_name": "治安员",
+                "Employment_depart": "保卫部"
+             },{
+                "Employment_name": "营销专员",
+                "Employment_depart": "商品运营部"
+             },{
+                "Employment_name": "车场礼宾员",
+                "Employment_depart": "保卫部"
+             },{
+                "Employment_name": "收营员",
+                "Employment_depart": "商场管理部"
+             },{
+                "Employment_name": "理货员",
+                "Employment_depart": "商场管理部"
+             },{
+                "Employment_name": "总台服务员",
+                "Employment_depart": "商场管理部"
+             }]
+         }
+     },
+     "EmploymentDetailData": {
+         "msg": "获取招聘详情页 数据成功",
+         "menuData": [{
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代理念"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "/About",
+                 "menu_name": "文化理念"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "社会责任"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代期刊"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "/Employment",
+                 "menu_name": "人才招聘"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "联系我们"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代城歌"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代博客"
+             }]
+         }],
+         "contentData": "职位描述：<br><br>任职要求 <br><br>1、40周岁以下，大学专科以上学历，男女不限； <br><br>2、性格开朗、思维活跃、善于沟通； <br><br>3、具备2年以上大型知名商业企业商业营销策划及活动组织执行相关工作经验，了解商业企业现场营运、商品业务管理流程，具备一定的活动策划、文案写作、组织执行及协调能力； <br><br>4、熟练操作OFFICE等办公软件； <br><br>5、具备软文写作和线上活动组织经验者优先。 <br><br>"
+     },
+     "applicationData": {
+         "msg": "获取招聘申请页 数据成功",
+         "menuData": [{
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代理念"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "/About",
+                 "menu_name": "文化理念"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "社会责任"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代期刊"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "/Employment",
+                 "menu_name": "人才招聘"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "联系我们"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代城歌"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代博客"
+             }]
+         }],
+         "contentData": "招聘申请页的主体内容哦"
+     },
+     "NewsData": {
+         "msg": "获取新闻活动页 数据成功",
+         "menuData": [{
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "当代要闻"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "/News",
+                 "menu_name": "当代活动"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "党建工作"
+             }]
+         }, {
+             "menu": [{
+                 "menu_router": "",
+                 "menu_name": "EDM"
+             }]
+         }],
+         "contentData": "新闻活动页的主体内容哦"
+     },
+     "ServiceData": {
+         "msg": "获取服务导航页 数据成功",
+         "menuData": "",
+         "contentData": "服务导航页的主体内容哦"
+     },
+     "CorporationData": {
+         "msg": "获取社团服务页 数据成功",
+         "menuData": "",
+         "contentData": "社团服务页的主体内容哦"
+     }
+ }

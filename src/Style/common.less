@@ -1,0 +1,252 @@
+
+
+body,header,footer,nav,section,aside,article,ul, li, a, p, h1, h2, h3, h4,h5, i, b, textarea, button, input, select  {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    font-family: 'Microsoft YaHei';
+    -webkit-tap-highlight-color:transparent;
+    &:focus {
+        outline: none;
+    }
+    font-size: 16px;
+    color: white;
+}
+
+
+body{
+    background-color: #39002e;
+}
+
+.component_container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 1200px;
+}
+
+.clear:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.clear{
+    zoom:1;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.show{
+    display: block;
+}
+
+.hide{
+    display: none;
+}
+
+.ellips{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#alertTip{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100000;
+    display: none;
+}
+#alertText{
+    width: 14.0rem;
+    position: absolute;
+    left: 50%;
+    top: 9.6rem;
+    margin-left: -7rem;
+    padding: 1.25rem 0.25rem;
+    line-height: 1.5rem;
+    text-align: center;
+    background-color: #000;
+    opacity: 0.8;
+    color: #fff;
+    border-radius: 0.25rem;
+    .alert_bottom{
+        line-height: 1.4rem;
+        color: #b3b3b3;
+    }
+}
+
+// 头部菜单组件的样式
+.head-nav{
+    width: 919px;
+    height: 93px;
+    margin: 0 auto;
+    background: url("../images/headerBg.png") no-repeat ;
+    
+    .head_list{
+        display: inline-block;
+        &.head_list1{
+            float: left;
+        }
+        &.head_list2{
+            float: right;
+        }
+        
+        .head_listli{
+            display: inline-block;
+            margin: 38px;
+            span{
+                font-size: 12px;
+            }
+        }
+    }
+
+    .head_logo{
+        display: inline-block;
+        margin-left: 28px;
+        .head_logoBg{
+            width: 167px;
+            height: 64px;
+            background: url("../images/logo.png") no-repeat ;
+        }
+        .head_lang{
+            width: 125px;
+            margin: 0 auto;
+            span{
+                font-size: 12px;
+                margin: 0 6px;
+                padding: 0px 11px;
+                border: 1px solid #6d006c;
+                border-radius: 6px;
+                color: #6d006c;
+                background-color: #320041;
+            }
+        }
+    }
+
+}
+
+// 左侧菜单栏的样式
+.left_menu_wrap{
+    width: 134px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 238px;
+    transform: translateX(-330%);
+
+    .left_menu_list{
+        display: inline-block;
+        padding: 40px 15px;
+        background-color: #350831;
+        border-radius: 20px;
+
+        .order_li{
+            margin: 5px 0;
+            padding: 5px 20px;
+            background-color: #57084a;
+            border-radius: 8px;
+        }
+    }
+
+    .online-serve{
+        width: 130px;
+        height: 48px;
+        background: url("../images/left_menu_server.png") no-repeat ;
+    }
+
+    .blog{
+        width: 130px;
+        height: 128px;
+        background: url("../images/left_menu_blog.jpg") no-repeat ;
+    }
+
+    .wx{
+        width: 130px;
+        height: 128px;
+        background: url("../images/left_menu_wx.jpg") no-repeat ;
+    }
+
+    p{
+        text-align: center;
+    }
+}
+
+//右侧日报的样式
+.right_view{
+    width: 153px;
+    height: 168px;
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    padding: 60px 0 0 30px;
+    font-size: 14px;
+    transform: translateX(160%);
+    background: url("../images/about_right.jpg") no-repeat ;
+
+    .right_view_img{
+        position: absolute;
+        width: 60px;
+        height: 90px;
+        left: 5px;
+        background: url("../images/about_rightmin.jpg") no-repeat ;
+    }
+
+    p{
+        display: inline-block;
+        width: 80px;
+        margin-left: 45px;
+        font-size: 12px;
+        color: #c96cb5;
+    }
+    .right_title{
+        color: #fff;
+    }
+}
+
+//底部footer样式
+.footer-nav{
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    .footer_list{
+        position: absolute;
+        width: 628px;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+
+        .footer_listli{
+            display: inline-block;
+            padding: 0 18px;
+            border-right: 2px solid white;
+        }
+    }
+
+    .footer_content{
+        width: 800px;
+        margin-top: 25px;
+        text-align: center;
+    }
+}
+
+
+
